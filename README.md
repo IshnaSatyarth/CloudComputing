@@ -19,4 +19,3 @@ Deliverables: As before, since your workflow is part of the repository, I should
 (5) Have your CloudRun application/service run under a dedicated service account [5 points]
 Deliverables: I should be able to see the command in your workflow updated correctly.
  
-![image](https://user-images.githubusercontent.com/65250405/164832063-3c1c9080-b9c2-4021-a039-05a602982671.png)
