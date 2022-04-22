@@ -1,27 +1,3 @@
-# A very simple webserver
-
-All credit goes to the original author:
-[koind/docker-simple-webserver | Github Repo](https://github.com/koind/docker-simple-webserver)
-
-It just made sense for us to include this in our repo as standalone files as opposed to including the original repo in ours as a submodule.
-
-Instructions from readme in original repo as below.
-
-# Simple web server in docker container
-
-## Built docker image
-```sh
-$ docker build -t webserver .
-```
-
-## Run
-```sh
-$ docker run -d -p 8080:8080 webserver
-```
-
-## Dockerfile
-
-```dockerfile
 FROM debian:9.3-slim
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
@@ -51,6 +27,3 @@ WORKDIR /var/www/html
 EXPOSE 8080
 
 CMD node webserver.js
-```
-
-
