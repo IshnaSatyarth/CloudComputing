@@ -20,4 +20,4 @@ jobs:
       run: 'gcloud builds submit --tag gcr.io/red-plate-341722/webserver'
       
     - name: 'Deploy 4'
-      run: 'gcloud run deploy simple-webserver --image=gcr.io/red-plate-341722/webserver:latest --region=us-central1 --allow-unauthenticated --service-account=<new5-483@red-plate-341722.iam.gserviceaccount.com>'
+      run: 'gcloud run deploy simple-webserver --image=gcr.io/red-plate-341722/webserver:latest --region=us-central1 --allow-unauthenticated --service-account=<new5-483@red-plate-341722.iam.gserviceaccount.com'
